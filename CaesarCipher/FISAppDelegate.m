@@ -7,6 +7,7 @@
 //
 
 #import "FISAppDelegate.h"
+#import "FISCaesarCipher.h"
 
 @implementation FISAppDelegate
 
@@ -16,6 +17,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    NSLog(@"TEST!");
     
     return YES;
 }
